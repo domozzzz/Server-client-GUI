@@ -25,7 +25,7 @@ public class Frame extends JFrame {
 	public Frame(Client client) {
 	
 		this.client = client;
-		this.setTitle("gimmy");
+		this.setTitle("Chat Client");
 		this.setSize(new Dimension(SCREEN_WIDTH, SCREEN_HEIGHT));
 		this.getContentPane().setForeground(Color.decode("#FF00FF"));
 		this.getContentPane().setBackground(Color.decode("#FFFF00"));
